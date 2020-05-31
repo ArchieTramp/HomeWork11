@@ -1,6 +1,14 @@
+/**
+ * Задание 7
+ * Использование стримов, заменяя прошлую реализацию
+ *
+ * @author Artur Gilyazov
+ */
+
+
 import java.math.BigInteger;
 import java.util.stream.Stream;
-
+/** урощение за счет стрима */
 public class Streams {
     public static void main(String[] args) {
 
@@ -9,7 +17,7 @@ public class Streams {
                 .forEach(System.out::println);
 
     }
-
+/** вычисление факториала */
     static BigInteger Factorial(int x) {
         BigInteger result = BigInteger.valueOf(1);
         for (int i = 1; i <= x; i++) {
